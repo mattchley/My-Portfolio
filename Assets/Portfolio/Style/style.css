@@ -129,10 +129,13 @@ footer {
 
 .examples {
 	display: flex;
-	flex-direction: column
-	width: 274px;
+	flex-wrap: wrap;
 	margin: 20px 0 25px;
 	overflow: auto;
+}
+
+.examples > div{
+	width: 50%;
 }
 
 /* contact page */
